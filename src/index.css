@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+	font-size: 1.2rem;
+	text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+table {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+tbody {
+  width: 100%;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 50% auto;
+  width: 100%;
+  padding: 3px 0 3px 0;
+}
+
+th {
+  text-align: right;
+  justify-content: end;
+}
+
+.info--left {
+  padding-right: 10%;
+  border-right: 1px solid grey;
+}
+
+td {
+  text-align: left;
+  width: 65%;
+  margin-left: 10%;
+}
+
+tr.info--section--one {
+  display: block;
+  width: 100%;
+  background-color: rgb(231, 205, 170);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+tr.info--section--two {
+  display: block;
+  width: 100%;
+  background-color: rgb(231, 205, 170);
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+h1 {
+	font-size: 1.4rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+img.monster--img {
+  margin: auto;
+  scale: 75%;
+}
+
+#stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10%;
+}
+
+p {
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+
+
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 13px;
+  top: 0;
+  background-color: rgb(68, 68, 68);
+  width: 100%;
+  height: 50px;
+  font-weight: 200;
+}
+
+nav>a {
+  text-decoration: none;
+  color: rgb(202, 202, 202);
+}
+
+nav>a.active {
+  color: rgb(104, 237, 255);
+  text-decoration: underline;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+        scroll-behavior: smooth;
+  }
+}
+
+.banner-logo {
+  display: flex;
+  margin-right: 10%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  width: 30%;
+}
