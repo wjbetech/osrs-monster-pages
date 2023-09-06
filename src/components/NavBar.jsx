@@ -6,7 +6,9 @@ const NavBar = () => {
     <div>
       <nav>
         <div className="banner-logo">
-          <img src={bannerLogo} alt="" />
+          <a href="https://github.com/wjbetech">
+            <img src={bannerLogo} alt="" />
+          </a>
         </div>
         <NavLink
           to="/abyssal-demon"

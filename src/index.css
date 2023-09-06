@@ -114,6 +114,7 @@ img {
 img.monster--img {
   margin: auto;
   scale: 75%;
+  max-height: 300px;
 }
 
 #stats {
@@ -169,6 +170,10 @@ nav>a:hover {
   text-decoration: underline;
 }
 
+.banner-logo {
+  width: 110px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html {
         scroll-behavior: smooth;
@@ -187,4 +192,28 @@ nav>a:hover {
   margin: auto;
   height: 100vh;
   width: 30%;
+  min-width: 400px;
+}
+
+.home {
+  width: 100%;
+  padding-right: 25%;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: left;
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+}
+
+.home--text {
+  text-align: left;
 }

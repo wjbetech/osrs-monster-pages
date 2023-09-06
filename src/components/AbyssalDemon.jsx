@@ -7,7 +7,7 @@ const AbyssalDemon = () => {
           <img className="monster--img" src="https://oldschool.runescape.wiki/images/thumb/Abyssal_demon.png/200px-Abyssal_demon.png?5e1ed" alt="" />
           <tr>
             <th className="info--left">Released</th>
-            <td>26 January 2006</td>
+            <td>26 January 2005</td>
           </tr>
           <tr>
             <th className="info--left">Members</th>

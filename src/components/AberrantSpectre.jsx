@@ -1,13 +1,13 @@
-const BlackDemon = () => {
+const AberrantSpectre = () => {
   return (
     <div className="container">
       <table className="infobox">
         <tbody>
-          <tr className="info--section--one">Black Demon</tr>
-          <img className="monster--img" src="https://oldschool.runescape.wiki/images/thumb/Black_demon.png/475px-Black_demon.png?5ecf8&20190529045215" alt="" />
+          <tr className="info--section--one">Aberrant Spectre</tr>
+          <img className="monster--img" src="https://oldschool.runescape.wiki/images/thumb/Aberrant_spectre.png/150px-Aberrant_spectre.png?65d6f" alt="" />
           <tr>
             <th className="info--left">Released</th>
-            <td>27 February 2002</td>
+            <td>26 January 2005</td>
           </tr>
           <tr>
             <th className="info--left">Members</th>
@@ -15,12 +15,12 @@ const BlackDemon = () => {
           </tr>
           <tr id="buffer">
             <th className="info--left">Combat Level</th>
-            <td>172</td>
+            <td>96</td>
           </tr>
           <tr className="info--section--two">Combat Info</tr>
           <tr>
             <th className="info--left">Type</th>
-            <td>Demon</td>
+            <td>Undead, Spectral</td>
           </tr>
           <tr>
             <th className="info--left">XP Bonus</th>
@@ -28,7 +28,7 @@ const BlackDemon = () => {
           </tr>
           <tr>
             <th className="info--left">Max Hit</th>
-            <td>16</td>
+            <td>11 (14 without Nose peg)</td>
           </tr>
           <tr>
             <th className="info--left">Aggressive?</th>
@@ -36,7 +36,7 @@ const BlackDemon = () => {
           </tr>
           <tr>
             <th className="info--left">Attack Style</th>
-            <td>Slash</td>
+            <td>Magic</td>
           </tr>
           <tr className="info--section--two">Stats</tr>
           <tr className="stats" id="stats">
@@ -52,4 +52,4 @@ const BlackDemon = () => {
   )
 }
 
-export default BlackDemon
+export default AberrantSpectre
